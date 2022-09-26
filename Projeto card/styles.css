@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;    
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+@media  (min-width: 1200px){
+
+
+.container {
+    display: flex;    
+    margin: auto;
+    align-items: center;   
+    padding-top: 72px;
+    
+}
+
+}
+
+.sedan, .suv, .luxury  {  
+    display: flex;
+    flex-direction: column;
+    gap: 35px; 
+    width: 250px;
+    height: 400px;
+    padding: 52px;        
+    
+}
+.sedan {
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.suv {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.icon {
+    width: 75px;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    
+
+}
+
+.button {    
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);    
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 60px;    
+    border: none;
+    text-align: center;
+    transition: all 350ms ease-in-out;    
+     
+    
+}
+
+.sedan .button {
+    color: hsl(31, 77%, 52%);
+}
+.suv .button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .button {
+    color: hsl(179, 100%, 13%);
+}
+
+.button a{
+    
+}
+
+.button:hover {
+    border: solid 2px hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background: none;
+}
+
+.footer {    
+    margin: 50px auto ;
+}
+
+.footer a {
+    color: hsl(31, 77%, 52%)
+}
+
+@media (min-width: 375px) and (max-width: 1199px){
+    .container {
+        display: flex;
+        flex-direction: column;    
+        margin: auto;
+        align-items: center;   
+        padding-top: 72px;
+        
+    }
+
+    .sedan {
+        border-radius: 20px 20px 0 0 ;
+    }
+
+    .luxury {
+        border-radius: 0 0 20px 20px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+}
