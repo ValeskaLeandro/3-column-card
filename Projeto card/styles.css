@@ -19,11 +19,11 @@ body {
 
 
 .container {
-    display: flex;    
-    margin: auto;
-    align-items: center;   
-    padding-top: 72px;
-    
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10% 0;
+    display: flex;
+    justify-content: center;
 }
 
 }
