@@ -83,6 +83,7 @@ body {
     border: none;
     text-align: center;
     transition: all 350ms ease-in-out;    
+    border: solid 2px hsl(0, 0%, 95%);
      
     
 }
