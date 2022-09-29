@@ -10,7 +10,8 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 100vw;    
+    width: 100vw;
+    height: 100vh;    
     background: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
     
